@@ -2,7 +2,6 @@ import pytest
 from django.urls import reverse
 import pytest
 from .models import Customer
-from .views import contact_list_view
 
 
 @pytest.mark.django_db
